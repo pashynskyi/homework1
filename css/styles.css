@@ -7,3 +7,36 @@ html, body
     font-size:14px;
     font-family: Arial;
 }
+body > h1{
+ padding: 10px;
+ border-top: 1px solid black;
+ text-align: center;
+}
+div {
+    width: 60%;
+    background: yellow;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 5px;
+}
+div h1 {
+    text-align: right;
+}
+p {
+    background: blue;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+span > span {
+    color: red;
+}
+p > span {
+    display:block;
+    text-align:left;
+    font-size: 14px;
+}
+i > b {
+color: red;
+}
+

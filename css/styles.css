@@ -31,8 +31,8 @@ span > span {
     color: red;
 }
 p > span {
-    display:block;
-    text-align:left;
+    display: block;
+    text-align: left;
     font-size: 14px;
 }
 i > b {
